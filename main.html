@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Form Example</title>
-</head>
-<body>
-  <form id="myForm" onsubmit="getFormvalue(); return false;">
-    First Name: <input type="text" id="firstName" name="firstName"><br><br>
-    Last Name: <input type="text" id="lastName" name="lastName"><br><br>
+<form onsubmit="getFormvalue()">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname">
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname">
     <input type="submit" value="Submit">
-  </form>
-
-  <script src="script.js"></script>
-</body>
-</html>
+</form>
